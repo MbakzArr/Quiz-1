@@ -1,7 +1,7 @@
 Convert to proper Java:
 
 
-class Car:
+    class Car:
     def __init__(self, year, make, model):
         self.make = make
         self.model = model
@@ -17,5 +17,5 @@ class Car:
         car.drive()
 
 
-if __name__ == '__main__':
+    if __name__ == '__main__':
     main()
